@@ -1,15 +1,8 @@
 import React from 'react';
-import './App.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  createRoutesFromElements,
-  Routes,
-  Route,
-  Navigate,
-} from 'react-router-dom';
+import './App.scss';
+import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, Navigate } from 'react-router-dom';
 import RootLayout from 'RootLayout';
-import ErrorPage from 'routes/ErrorPage';
+import ErrorPage from 'routes/ErrorPage/ErrorPage';
 import MainPage from 'routes/MainPage';
 import ViewsPage from 'routes/ViewsPage';
 
